@@ -1,0 +1,52 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather Sans', sans-serif;
+	color:black;
+}
+
+.header {
+	background: url(../img/boxmodel.jpg) no-repeat center center;
+	background-size: cover;
+	height: 800px;
+
+}
+
+.container {
+	width: auto;
+	/*background-color: rgba(0,0,0,.5);*/
+	background-color: #848484;
+	display:block;
+	margin: auto auto;
+	height: 120px;
+	text-align: center;
+	color:#F2F2F2;
+
+}
+
+h1 {
+	font-size: 72px;
+}
+
+.col-md-8 {
+	background-color: rgba(0,0,0,.5);
+	width: 900px;
+	height: 500px;
+	margin-top: 100px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	border-radius: 3px;
+	border-style: 2px solid black;
+}
+
+.footer {
+	background-color: #848484;
+}
+
+p {
+	font-size: 38px;
+    padding-top:15px;
+    color:#F2F2F2;
+}

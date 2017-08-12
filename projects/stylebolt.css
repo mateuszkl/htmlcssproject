@@ -1,0 +1,112 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+    background-color: #000000;
+
+}
+
+.jumbotron {
+  background-color: #000000;
+}
+
+h4 {
+  color: white;
+}
+
+form {
+  text-align:center;
+  margin: 40px;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid #0393FF;
+  background-color: transparent;
+  margin: 0 15px;
+}
+
+.nav li {
+  padding: 0 15px;
+}
+
+.nav-bottom {
+  list-style: none;
+  color: #0393FF;
+  padding-left: 0;
+ 
+}
+
+
+
+#H1 {
+  color: white;
+  padding-top: 40px;
+}
+
+.wrapper2 {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: #0393FF;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.img {
+  width: 200px;
+  top: 150px;
+}
+
+.nav  li {
+ display: inline-block;
+ }
+
+
+
+#Login {
+  color: white;
+}
+
+.btn {
+  color: #0393FF;
+  border: 1px solid #0393FF;
+  background-color: transparent;
+  border-radius: 1.5px;
+}
+
+.wrapper {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.thumbnail {
+  padding: 10px 10px;
+  background-color: transparent;
+  border-style: none;
+  margin: 5px 5px;
+}
+
+.feature {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  padding: 50px;
+  
+  
+}
+
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
+
+.footer {
+  padding-top: 20px;
+}

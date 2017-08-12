@@ -1,0 +1,107 @@
+html, body {
+	
+	margin:0;
+	padding:0;
+	font-family: 'Merriweather Sans', sans-serif;
+	
+}
+
+.header {
+	background: url(../img/boxmodel.jpg) no-repeat center center;
+	background-size: cover;
+	height: 670px;
+}
+
+.img-thumbnail {
+	padding: 15px 15px;
+	margin-top: 30px;
+	border-style:none;
+	border-radius: 3px;
+	background-color: black;
+}
+
+.img-thumbnail:hover {
+	background-color: gray;
+	cursor:pointer;
+
+}
+
+.nav li, h4 {
+	display:inline-block;
+}
+
+.header .container {
+	background-color: rgba(0,0,0,.5);
+	width: auto;
+}
+
+.nav li {
+	margin-left: 15px;
+	border-radius: none;
+	color: #fff;
+    }
+
+.btn {
+	background-color:transparent;
+	color:white;
+	border-style: none;
+	transition: 0.5s;
+}
+
+.btn:hover {
+   transition: 0.5s;
+  
+
+}
+
+.container {
+	padding: 25px;
+}
+
+.supporting {
+	height:100px;
+	background-color:#848484;
+	text-align:center;
+	padding:10px;
+}
+
+.wrapper {
+	text-align: left;
+	margin-top:160px;
+	margin-left: 40px;
+	
+	color:#fff;
+}
+
+span {
+	font-style: bold;
+}
+
+h1 {
+	font-size: 82px;
+	letter-spacing: 2px;
+}
+h2 {
+	color:#fff;
+}
+
+.footer {
+	height: 80px;
+	background-color: #848484;
+	margin: 30px 0 0 0;
+	padding: auto;
+}
+
+h4{
+  line-height: 55px;
+  margin-right: 20px;
+}
+
+.container2 {
+	padding: auto;
+}
+
+.main {
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
